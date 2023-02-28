@@ -63,10 +63,14 @@ export default function TextForm(props) {
 
 
         </div>
-        <div class="alert alert-success" id="para" role="alert">  </div>
+        <div className="alert alert-success" id="para" role="alert">  </div>
 
       </form>
       <Cards text={Text} />
+
+
+
+      
     </div>
   );
 }
